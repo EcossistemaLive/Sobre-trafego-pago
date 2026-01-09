@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório de Estratégia de Captação - Pneucar</title>
     
+    <!-- Tailwind CSS & Plugins -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
@@ -82,6 +84,7 @@
 </head>
 <body class="antialiased pb-20">
 
+    <!-- Header -->
     <header class="sticky top-0 z-50 bg-live-deep/90 backdrop-blur-md border-b border-live-border">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
@@ -102,6 +105,7 @@
 
     <main class="max-w-5xl mx-auto px-6 pt-10">
 
+        <!-- Section 1: A Narrativa (Contexto) -->
         <section class="mb-16">
             <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
                 <i data-lucide="history" class="text-live-accent"></i> 1. A Evolução da Estratégia
@@ -110,104 +114,104 @@
             <div class="relative pl-16 space-y-12">
                 <div class="timeline-line"></div>
 
+                <!-- Step 1 -->
                 <div class="relative animate-fade-up" style="animation-delay: 0.1s;">
                     <div class="absolute -left-16 w-12 h-12 bg-live-deep border border-live-border rounded-full flex items-center justify-center z-10 shadow-lg shadow-black/50">
                         <i data-lucide="lightbulb" class="text-yellow-500 w-5 h-5"></i>
                     </div>
                     <div class="glass-panel p-6 rounded-xl">
-                        <h3 class="text-lg font-semibold text-white mb-2">O Brainstorm & A Dor Latente</h3>
+                        <h3 class="text-lg font-semibold text-white mb-2">O Brainstorm & A Solução Inicial</h3>
                         <p class="text-sm text-live-muted font-serif leading-relaxed">
-                            [cite_start]Identificamos que a maior trava de crescimento da Pneucar hoje é a <strong>escassez de mecânicos qualificados [cite: 3]</strong>. A solução definida internamente foi criar a "Escola Pneucar" para formar nossa própria mão de obra. [cite_start]Minha sugestão inicial foi orçar um teste de tráfego pago para validar se há interesse do público[cite: 16].
+                            Em nossa reunião de brainstorm, identificamos que a escassez de mecânicos qualificados é a maior trava de crescimento da Pneucar. Decidimos buscar uma solução ativa: captar alunos para a escola interna através de tráfego pago. Minha sugestão imediata foi <strong>orçar um serviço inicial de teste</strong> para identificar o público-alvo e os canais mais adequados.
                         </p>
                     </div>
                 </div>
 
+                <!-- Step 2 -->
                 <div class="relative animate-fade-up" style="animation-delay: 0.2s;">
                     <div class="absolute -left-16 w-12 h-12 bg-live-deep border border-live-border rounded-full flex items-center justify-center z-10 shadow-lg shadow-black/50">
                         <i data-lucide="search-x" class="text-red-400 w-5 h-5"></i>
                     </div>
                     <div class="glass-panel p-6 rounded-xl border-l-4 border-l-red-500/50">
-                        <h3 class="text-lg font-semibold text-white mb-2">O Diagnóstico da Falha Anterior</h3>
+                        <h3 class="text-lg font-semibold text-white mb-2">Análise Técnica & Ajuste de Rota</h3>
                         <p class="text-sm text-live-muted font-serif leading-relaxed mb-4">
-                            [cite_start]Ao analisar nossa tentativa anterior de anúncio (que teve visualizações mas zero inscritos), o especialista Apoena identificou o erro técnico: usamos o Google Forms, que não permite rastreamento[cite: 18, 130].
+                            Realizei a reunião com o especialista Apoena e apresentei os dados do nosso teste interno (que teve visualizações, mas zero inscritos). O diagnóstico foi preciso: a falta de inteligência de dados (Pixel) e o uso de ferramentas amadoras (Google Forms) impediram o sucesso.
                         </p>
-                        <div class="bg-red-500/10 p-3 rounded-lg border border-red-500/20 flex gap-3 items-center">
-                            <i data-lucide="alert-triangle" class="text-red-400 w-5 h-5 shrink-0"></i>
-                            <p class="text-xs text-gray-300"><strong>Problema Técnico:</strong> Sem o "Pixel" instalado, a ferramenta de anúncio ficou cega e não conseguiu encontrar o perfil correto de aluno.</p>
-                        </div>
                     </div>
                 </div>
 
+                <!-- Step 3 -->
                 <div class="relative animate-fade-up" style="animation-delay: 0.3s;">
                     <div class="absolute -left-16 w-12 h-12 bg-live-deep border border-live-accent rounded-full flex items-center justify-center z-10 shadow-[0_0_15px_rgba(0,232,0,0.3)]">
                         <i data-lucide="check-circle-2" class="text-live-accent w-6 h-6"></i>
                     </div>
                     <div class="glass-panel p-6 rounded-xl border-l-4 border-l-live-accent">
-                        <h3 class="text-lg font-semibold text-white mb-2">A Nova Solução: Implementação & Autonomia</h3>
+                        <h3 class="text-lg font-semibold text-white mb-2">A Proposta de Consultoria e Implementação</h3>
                         <p class="text-sm text-live-muted font-serif leading-relaxed">
-                            [cite_start]Em vez de apenas contratar alguém para "subir um anúncio", o Apoena propôs um <strong>Programa de Implementação [cite: 26]</strong>. O objetivo não é criar dependência, mas instalar a inteligência de tráfego dentro da Pneucar.
+                            O Apoena trouxe uma alternativa superior ao simples "orçamento de anúncios". Ele propôs uma <strong>Consultoria de Implementação</strong>. Em vez de ficarmos dependentes de terceiros, ele irá estruturar todo o processo técnico, validar os testes A/B da oferta (Curso Pago vs. Gratuito) e deixar a máquina rodando para que o cliente continue anunciando posteriormente com autonomia.
                         </p>
-                        <ul class="mt-4 space-y-2">
-                            <li class="flex items-center gap-2 text-sm text-gray-300">
-                                <i data-lucide="arrow-right" class="text-live-accent w-4 h-4"></i>
-                                [cite_start]<span>Refinamento da Oferta: Filtro de R$ 500 (simbólico) vs. Bolsa Integral (Mérito)[cite: 7, 8].</span>
-                            </li>
-                            <li class="flex items-center gap-2 text-sm text-gray-300">
-                                <i data-lucide="arrow-right" class="text-live-accent w-4 h-4"></i>
-                                [cite_start]<span>Mitigação de risco trabalhista: Ajuste na carga horária do curso[cite: 13].</span>
-                            </li>
-                            <li class="flex items-center gap-2 text-sm text-gray-300">
-                                <i data-lucide="arrow-right" class="text-live-accent w-4 h-4"></i>
-                                [cite_start]<span>Infraestrutura: Migração para ferramentas profissionais (Typeform/Respondi)[cite: 19].</span>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Section 2: O Valor Intrínseco (Por que vale a pena?) -->
         <section class="mb-16 animate-fade-up" style="animation-delay: 0.4s;">
             <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-                <i data-lucide="trending-up" class="text-live-accent"></i> 2. O Valor Estratégico do Investimento
+                <i data-lucide="trending-up" class="text-live-accent"></i> 2. Valor Intrínseco & Continuidade
             </h2>
             
             <div class="grid md:grid-cols-2 gap-6">
+                <!-- Card 1 -->
                 <div class="glass-panel p-6 rounded-xl hover:-translate-y-1 transition-transform duration-300">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="p-2 bg-blue-500/20 rounded-lg text-blue-400"><i data-lucide="users" class="w-6 h-6"></i></div>
-                        <h3 class="font-bold text-white">Processo Seletivo Invertido</h3>
+                        <div class="p-2 bg-blue-500/20 rounded-lg text-blue-400"><i data-lucide="layers" class="w-6 h-6"></i></div>
+                        <h3 class="font-bold text-white">Fundação para o "AutoCAD"</h3>
                     </div>
                     <p class="text-sm text-live-muted leading-relaxed">
-                        Hoje, pagamos para divulgar vagas e não achamos ninguém. Com essa estrutura, <strong>o candidato paga para ser treinado</strong> e avaliado. Transformamos um centro de custo (RH) em uma unidade que se autofinancia.
+                        O investimento atual não se perde. A estrutura de Pixel, Públicos e Business Manager configurada para captar alunos será a <strong>mesma base técnica</strong> para escalar as vendas do serviço de assinatura no futuro. Estamos construindo o alicerce da casa, não apenas alugando um quarto.
                     </p>
                 </div>
 
+                <!-- Card 2 -->
                 <div class="glass-panel p-6 rounded-xl hover:-translate-y-1 transition-transform duration-300">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="p-2 bg-purple-500/20 rounded-lg text-purple-400"><i data-lucide="rocket" class="w-6 h-6"></i></div>
-                        <h3 class="font-bold text-white">Base para o "AutoCAD"</h3>
+                        <div class="p-2 bg-purple-500/20 rounded-lg text-purple-400"><i data-lucide="users-2" class="w-6 h-6"></i></div>
+                        <h3 class="font-bold text-white">Dupla Segurança Operacional</h3>
                     </div>
                     <p class="text-sm text-live-muted leading-relaxed">
-                        A Pneucar não vai parar na escola. O objetivo final é o serviço de assinatura. [cite_start]A estrutura de Pixel, Públicos e Business Manager que montaremos agora será a <strong>mesma base para escalar as vendas da assinatura no futuro [cite: 49]</strong>.
+                        Negociamos um modelo onde treinaremos <strong>duas frentes simultaneamente</strong>: uma pessoa interna da Pneucar e um consultor da nossa equipe. Isso garante redundância: se o funcionário sair, o conhecimento permanece protegido com a consultoria, e vice-versa.
                     </p>
                 </div>
             </div>
         </section>
 
+        <!-- Section 3: Proposta Financeira -->
         <section class="animate-fade-up" style="animation-delay: 0.5s;">
             <div class="glass-panel rounded-2xl p-8 border border-live-accent/20 bg-gradient-to-br from-live-deep to-live-deep/50 relative overflow-hidden">
+                <!-- Decorative Glow -->
                 <div class="absolute top-0 right-0 w-64 h-64 bg-live-accent/5 rounded-full blur-3xl -mr-32 -mt-32"></div>
 
                 <div class="flex flex-col md:flex-row justify-between items-center gap-8 relative z-10">
                     <div class="flex-1">
                         <h2 class="text-2xl font-bold text-white mb-2">Programa de Implementação (3 Meses)</h2>
                         <p class="text-live-muted font-serif mb-6">
-                            Inclui estruturação completa, configuração técnica (Pixel/API), criação de campanhas, análise de dados e, principalmente, o <strong>treinamento da equipe interna</strong> para assumir a operação.
+                            Inclui estruturação completa, configuração técnica (Pixel/API), criação de campanhas e treinamento prático.
                         </p>
+                        
+                        <!-- Destaque para o treinamento híbrido -->
+                        <div class="mb-6 p-4 bg-live-accent/10 border border-live-accent/20 rounded-lg">
+                            <h4 class="text-live-accent text-sm font-bold mb-1 flex items-center gap-2">
+                                <i data-lucide="shield-check" class="w-4 h-4"></i> Oportunidade Exclusiva: Treinamento Duplo
+                            </h4>
+                            <p class="text-xs text-gray-300">
+                                O especialista concordou em treinar <strong>simultaneamente</strong> um representante da Pneucar e um da nossa Consultoria pelo mesmo investimento, maximizando o retorno.
+                            </p>
+                        </div>
+
                         <div class="flex flex-wrap gap-3">
                             <span class="px-3 py-1 bg-live-border rounded-full text-xs text-gray-300 flex items-center gap-1"><i data-lucide="check" class="w-3 h-3"></i> 6 Encontros de Mentoria</span>
                             <span class="px-3 py-1 bg-live-border rounded-full text-xs text-gray-300 flex items-center gap-1"><i data-lucide="check" class="w-3 h-3"></i> Suporte Diário (Whats)</span>
-                            <span class="px-3 py-1 bg-live-border rounded-full text-xs text-gray-300 flex items-center gap-1"><i data-lucide="check" class="w-3 h-3"></i> Gravação das Aulas</span>
                         </div>
                     </div>
 
@@ -230,7 +234,7 @@
             </div>
             
             <p class="text-center text-xs text-gray-500 mt-6 font-mono">
-                *Nota: Agências de tráfego cobrariam este valor mensalmente de forma recorrente. [cite_start]Aqui, o investimento tem início, meio e fim (autonomia). [cite: 364]
+                *Nota: Agências de tráfego cobrariam este valor mensalmente de forma recorrente. Aqui, o investimento gera autonomia em 90 dias.
             </p>
         </section>
 
